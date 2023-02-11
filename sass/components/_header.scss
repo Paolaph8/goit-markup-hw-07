@@ -1,0 +1,51 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+  &__link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: $primary-color;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $secondary-color;
+  }
+
+  &__logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: $secondary-color;
+    font-family: "Raleway", "sans-serif";
+  }
+
+  &__contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+
+  &__header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$color-white;
+    height: 80px;
+    border-bottom: 1px solid $color-border-bottom
+  }
+
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__contact {
+    color: $color-text-secondary;
+  }
+}

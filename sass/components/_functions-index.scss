@@ -1,0 +1,22 @@
+.functions {
+    height: 425px;
+    background: $color-white;
+    margin-top: 99px;
+
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $primary-color;
+        margin-top: 94px;
+        margin-bottom: 55px;
+    }
+
+    &__foto {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,66 @@
+.section-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 82px;
+
+    &__text-img {
+        width: 322px;
+        height: 70px;
+        align-content: flex-start;
+        padding-left: 24px;
+    }
+
+    &___section-card__card-emergent {
+        position: absolute;
+        top: 0;
+        height: 294px;
+        width: 370px;
+        background: $color-blue;
+        letter-spacing: 0.03em;
+        color:$color-white;
+        padding: 63px 24px;
+        transform: translateY(102%);
+        transition: 250ms ease;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+&__card:hover 
+&__card-emergent {
+    transform: translateY(0%);
+}
+
+&__card-image {
+    overflow: hidden;
+    position: relative;
+}
+
+&__card {
+    box-sizing: border-box;
+    border: 1px solid $color-border-card;
+    width: 370px;
+    height: 404px;
+    margin: 0;
+    cursor: pointer;
+    border-top: 0px;
+}
+&__card:hover {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+&__is-hidden {
+    visibility: hidden;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.client-regular {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__client-title {
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+    }
+
+    &__client-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__client-item {
+        width: 170px;
+        height: 90px;
+    }
+
+    &__client-link {
+        width: 170px;
+        height: 90px;
+        display: block;
+        border: 1px solid$color-gray;
+        color: $color-gray;
+        background-color: #fff;
+        padding: 16px 32px;
+    }
+
+    &__client-link:hover,
+    &__client-link:focus {
+        color: $secondary-color;
+        border-color: $secondary-color;
+    }
+
+        &__client-icon {
+            fill: currentColor;
+        }
+}
+
+
+
+
+
+
+
